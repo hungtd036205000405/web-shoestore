@@ -37,11 +37,6 @@ Dự án không chỉ dừng lại ở các chức năng cơ bản của một w
 - **CORS Config** để bảo vệ API.  
 - Xây dựng **RESTful API chuẩn hoá**.  
 
-### 🎨 Frontend  
-- **React + React Router**: SPA (Single Page Application).  
-- **TailwindCSS / CSS Modules**: giao diện hiện đại, tối ưu trải nghiệm người dùng.  
-- **Responsive UI** trên cả PC và Mobile.  
-
 ---
 
 ## 🛠️ Công nghệ sử dụng  
