@@ -10,7 +10,7 @@ Dự án không chỉ dừng lại ở các chức năng cơ bản của một w
 
 ### 👤 Quản lý người dùng & phân quyền  
 - Đăng ký / Đăng nhập bằng **Spring Security + JWT Token**.  
-- Mã hóa mật khẩu bằng **BCrypt** để đảm bảo an toàn.  
+- Mã hóa mật khẩu bằng thuật toán **BCrypt** để đảm bảo an toàn.  
 - Phân quyền 3 cấp độ rõ ràng:  
   - 👑 **Admin**: quản lý sản phẩm, đơn hàng, người dùng.  
   - 🧑‍💼 **Nhân viên**: xử lý đơn hàng, hỗ trợ khách hàng.  
