@@ -18,10 +18,10 @@ Dự án không chỉ dừng lại ở các chức năng cơ bản của một w
 
 ### 🛒 Hệ thống bán hàng  
 - Quản lý **Giỏ hàng, Đơn hàng, Thanh toán online**.  
-- **Tìm kiếm & lọc sản phẩm nâng cao** theo danh mục, size, giá.  
+- **Tìm kiếm & lọc sản phẩm nâng cao** theo danh mục, size giày, giá.  
 - **Review + Favorite**: người dùng có thể đánh giá và lưu sản phẩm yêu thích.  
 - **Gợi ý sản phẩm tương tự** dựa trên lịch sử mua hàng.  
-- Giảm giá / Khuyến mãi (discount).
+- **Các chương trình Khuyến mãi** (discount).
 ### 🤖 Chat AI (OpenAI API)  
 - Tích hợp **AI Chatbot** để hỗ trợ khách hàng.  
 - **Gợi ý sản phẩm phù hợp** theo nhu cầu.  
@@ -79,6 +79,13 @@ Dự án không chỉ dừng lại ở các chức năng cơ bản của một w
 ✅ Dashboard Admin quản lý **sản phẩm, người dùng, đơn hàng, doanh thu**.  
 
 ---
+
+## 🔮 Hướng phát triển trong tương lai
+
+- Thanh toán Online: tích hợp VNPay / PayPal / Stripe.
+- AI Recommendation nâng cao: gợi ý dựa trên lịch sử mua hàng + hành vi người dùng.
+- ElasticSearch: tìm kiếm sản phẩm cực nhanh.
+- Mobile App (React Native): mang trải nghiệm Shoestore lên di động.
 
 ## 🚀 Cài đặt & chạy dự án  
 
