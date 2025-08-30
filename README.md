@@ -67,6 +67,13 @@ This project goes beyond the basic functionalities of an e-commerce website by l
 ## 📸 Demo Screenshots  
 👉 (Add screenshots or GIFs here to showcase the project)  
 <img width="1712" height="1028" alt="image" src="https://github.com/user-attachments/assets/19f9f528-fd73-4f33-991e-2ae2955cfe8a" />
+<img width="2275" height="1020" alt="image" src="https://github.com/user-attachments/assets/2a980fa2-2f64-435b-b8c5-ee7bf11abd0d" />
+<img width="1919" height="816" alt="image" src="https://github.com/user-attachments/assets/cc3fd42a-75ef-48af-b48a-eb38588b3776" />
+<img width="1864" height="902" alt="image" src="https://github.com/user-attachments/assets/0c0717a6-d212-42ce-81e2-50f4429bb987" />
+<img width="1712" height="1028" alt="image" src="https://github.com/user-attachments/assets/ce25eaae-c201-44a5-9f44-f8eeebb09e5c" />
+<img width="1915" height="940" alt="image" src="https://github.com/user-attachments/assets/c6ea6a2e-3efe-4f20-9775-bf495b0b8b1e" />
+
+
 
 ---
 
