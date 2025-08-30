@@ -1,88 +1,95 @@
 # 🛍️ ShoeStore - Fullstack E-commerce Website  
 
-## 🚀 Giới thiệu  
-**ShoeStore** là một hệ thống bán giày trực tuyến được xây dựng theo mô hình **Fullstack** với **Spring Boot (Backend)** và **React (Frontend)**.  
-Dự án không chỉ dừng lại ở các chức năng cơ bản của một website thương mại điện tử, mà còn áp dụng nhiều công nghệ hiện đại để tối ưu trải nghiệm người dùng và tăng cường bảo mật.  
+## 🚀 Introduction  
+**ShoeStore** is a full-featured online shoe store built using **Spring Boot (Backend)** and **React (Frontend)**.  
+This project goes beyond the basic functionalities of an e-commerce website by leveraging modern technologies to enhance user experience and ensure robust security.  
 
 ---
 
-## ✨ Các tính năng chính  
+## ✨ Key Features  
 
-### 👤 Quản lý người dùng & phân quyền  
-- Đăng ký / Đăng nhập bằng **Spring Security + JWT Token**.  
-- Mã hóa mật khẩu bằng thuật toán **BCrypt** để đảm bảo an toàn.  
-- Phân quyền 3 cấp độ rõ ràng:  
-  - 👑 **Admin**: quản lý sản phẩm, đơn hàng, người dùng.  
-  - 🧑‍💼 **Nhân viên**: xử lý đơn hàng, hỗ trợ khách hàng.  
-  - 👤 **User**: mua hàng, đánh giá sản phẩm, chat AI.  
+### 👤 User Management & Role-Based Access  
+- **Registration/Login** with **Spring Security + JWT Token**.  
+- Passwords securely hashed using **BCrypt**.  
+- Three clear **role levels**:  
+  - 👑 **Admin**: manage products, orders, and users.  
+  - 🧑‍💼 **Staff**: process orders and provide customer support.  
+  - 👤 **User**: shop, interact with AI Chatbot, review and save favorite products.  
 
-### 🛒 Hệ thống bán hàng  
-- Quản lý **Giỏ hàng, Đơn hàng, Thanh toán online**.  
-- **Tìm kiếm & lọc sản phẩm nâng cao** theo danh mục, size giày, giá.  
-- **Review + Favorite**: người dùng có thể đánh giá và lưu sản phẩm yêu thích.  
-- **Gợi ý sản phẩm tương tự** dựa trên lịch sử mua hàng.  
-- **Các chương trình Khuyến mãi** (discount).
-### 🤖 Chat AI (OpenAI API)  
-- Tích hợp **AI Chatbot** để hỗ trợ khách hàng.  
-- **Gợi ý sản phẩm phù hợp** theo nhu cầu.  
-- Lưu lại **lịch sử hội thoại** (Conversation + Message).  
+### 🛒 E-commerce System  
+- Full **Cart, Order, and Online Payment** management.  
+- **Advanced search & filtering** by category, size, and price.  
+- **Personalized Recommendations** based on purchase history.  
+- **Promotions & Discounts** system.  
 
-### 📊 Dashboard quản trị
-- **Thống kê** doanh thu theo ngày, tháng, năm.
-- **Biểu đồ** trực quan: sản phẩm bán chạy, doanh thu theo thời gian.
-- Quản lý sản phẩm, đơn hàng, người dùng.
+### ⭐ Product Reviews & Favorites  
+- Users can **rate and review products** they purchased.  
+- Users can **save favorite products** for easy access later.  
+- Enhances **user engagement** and **personalized shopping experience**.  
 
-### 🔐 Bảo mật & kỹ thuật backend  
-- **Spring Security + JWT**: Authentication & Authorization.  
-- **CORS Config** để bảo vệ API.  
-- Xây dựng **RESTful API chuẩn hoá**.  
+### 🤖 AI Chatbot (OpenAI API)  
+- Integrated **AI Chatbot** to assist customers.  
+- Provides **product recommendations** based on user preferences.  
+- Stores **conversation history** (Conversation + Message).  
+
+### 📊 Admin Dashboard  
+- **Revenue statistics** by day, month, year.  
+- **Visual charts**: best-selling products, revenue trends.  
+- Manage products, orders, and users efficiently.  
+
+### 🔐 Security & Backend Techniques  
+- **Spring Security + JWT** for Authentication & Authorization.  
+- **CORS configuration** to protect API endpoints.  
+- Built **RESTful APIs** following best practices.  
 
 ---
 
-## 🛠️ Công nghệ sử dụng  
+## 🛠️ Technology Stack  
 
 ### Backend  
-- Java Spring Boot (REST API).  
-- Spring Security + JWT (xác thực & phân quyền).  
-- MySQL (CSDL quan hệ).  
-- Hibernate / JPA (ORM).  
+- Java Spring Boot (REST API)  
+- Spring Security + JWT (Authentication & Authorization)  
+- MySQL (Relational Database)  
+- Hibernate / JPA (ORM)  
 
 ### Frontend  
-- React + React Router (SPA).  
-- Axios (gọi API).  
-- TailwindCSS / CSS Modules (UI/UX).  
+- React + React Router (Single Page Application)  
+- Axios (API requests)  
+- TailwindCSS / CSS Modules (UI/UX)  
 
-### Khác  
-- Docker (triển khai).  
-- Ngrok (test API).  
-- OpenAI API (AI Chatbot).  
-
----
-
-## 📸 Demo giao diện  
-👉 (Thêm ảnh chụp màn hình hoặc gif demo dự án tại đây để gây ấn tượng hơn)  
+### Others  
+- Docker (Deployment)  
+- Ngrok (API testing)  
+- OpenAI API (AI Chatbot)  
 
 ---
 
-## ⚡ Điểm nổi bật gây ấn tượng  
-✅ Áp dụng **Spring Security + JWT** để bảo mật toàn bộ hệ thống.  
-✅ Xây dựng phân quyền nhiều cấp độ (**Admin / Staff / User**).  
-✅ Tích hợp **AI Chatbot** gợi ý sản phẩm bằng **OpenAI**.  
-✅ Đầy đủ tính năng **Cart + Order + Payment + Review + Favorite**.  
-✅ Thiết kế **Frontend bằng React** hiện đại, dễ mở rộng.  
-✅ **Clean Architecture** & **RESTful API** chuẩn mực.  
-✅ Dashboard Admin quản lý **sản phẩm, người dùng, đơn hàng, doanh thu**.  
+## 📸 Demo Screenshots  
+👉 (Add screenshots or GIFs here to showcase the project)  
 
 ---
 
-## 🔮 Hướng phát triển trong tương lai
+## ⚡ Highlights  
+✅ Implemented **Spring Security + JWT** for full system security.  
+✅ Multi-level **Role-Based Access Control** (**Admin / Staff / User**).  
+✅ Integrated **AI Chatbot** for product recommendations using **OpenAI**.  
+✅ Complete **Cart + Order + Payment** functionalities.  
+✅ **Product Reviews & Favorites** to enhance engagement and shopping experience.  
+✅ Modern **React frontend** design, scalable and maintainable.  
+✅ **Clean Architecture** & **RESTful API** standards.  
+✅ Admin Dashboard for managing **products, users, orders, and revenue**.  
 
-- Thanh toán Online: tích hợp VNPay / PayPal / Stripe.
-- AI Recommendation nâng cao: gợi ý dựa trên lịch sử mua hàng + hành vi người dùng.
-- ElasticSearch: tìm kiếm sản phẩm cực nhanh.
-- Mobile App (React Native): mang trải nghiệm Shoestore lên di động.
+---
 
-## 🚀 Cài đặt & chạy dự án  
+## 🔮 Future Improvements  
+- Online Payment: integrate **VNPay / PayPal / Stripe**.  
+- Advanced AI Recommendations: personalized suggestions based on purchase history and user behavior.  
+- **ElasticSearch**: for fast product search.  
+- Mobile App (React Native): extend ShoeStore experience to mobile devices.  
+
+---
+
+## 🚀 Installation & Running the Project  
 
 ### Backend (Spring Boot)  
 ```bash
