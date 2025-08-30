@@ -1,0 +1,72 @@
+#server:
+#  port: 8080
+#  servlet:
+#    context-path: /
+#
+#spring:
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/shoestores
+#    username: root
+#    password: 22102005
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#  mvc:
+#    mvc:
+#      pathmatch:
+#        matching-strategy: ant_path_matcher
+#      trailing-slash: false  # Tắt tự động thêm /
+#      web:
+#        resources:
+#          add-mappings: false
+#
+#jwt:
+#  signerKey: "cud1yALGVgbBvbHgSwe3Gn+sIHi4/0kd5CxTquhNZ+O1Q6++lNmvzZFlKUzzMtWJ"
+#
+#logging:
+#  level:
+#    org.springframework.web: DEBUG
+#    org.springframework.security: DEBUG
+#    com.example.shoestore: TRACE
+#    org.hibernate.SQL: DEBUG
+#    org.hibernate.type: TRACE
+#
+#
+#
+#
+server:
+  port: 8080
+  servlet:
+    context-path: /
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/shoestores
+    username: root
+    password: 22102005
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+  web:
+    resources:
+      add-mappings: true   # Cho phép Spring serve static file (React build)
+      static-locations: classpath:/static/   # FE React build để ở đây
+
+jwt:
+  signerKey: "cud1yALGVgbBvbHgSwe3Gn+sIHi4/0kd5CxTquhNZ+O1Q6++lNmvzZFlKUzzMtWJ"
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+    org.springframework.security: DEBUG
+    com.example.shoestore: TRACE
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type: TRACE
+
+
