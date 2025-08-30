@@ -66,32 +66,124 @@ This project goes beyond the basic functionalities of an e-commerce website by l
 ## 📸 Demo Screenshots  
 
 <!-- Screenshot 1 -->
-<img src="https://github.com/user-attachments/assets/19f9f528-fd73-4f33-991e-2ae2955cfe8a" width="500" alt="Screenshot 1" />
-*Rating system with stars and comments.*
+<div style="position: relative; display: inline-block; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/19f9f528-fd73-4f33-991e-2ae2955cfe8a" width="500" alt="Screenshot 1" />
+  <div style="
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      background-color: rgba(0,0,0,0.6);
+      color: white;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 0 0 5px 5px;
+  ">
+    Rating system with stars and comments.
+  </div>
+</div>
 
 <!-- Screenshot 2 -->
-<img src="https://github.com/user-attachments/assets/2a980fa2-2f64-435b-b8c5-ee7bf11abd0d" width="500" alt="Screenshot 2" />
-*BestSeller Page showcasing top-selling products.*
+<div style="position: relative; display: inline-block; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/2a980fa2-2f64-435b-b8c5-ee7bf11abd0d" width="500" alt="Screenshot 2" />
+  <div style="
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      background-color: rgba(0,0,0,0.6);
+      color: white;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 0 0 5px 5px;
+  ">
+    BestSeller Page showcasing top-selling products.
+  </div>
+</div>
 
 <!-- Screenshot 3 -->
-<img src="https://github.com/user-attachments/assets/cc3fd42a-75ef-48af-b48a-eb38588b3776" width="500" alt="Screenshot 3" />
-*Cart page: edit size, quantity, delete items, etc.*
+<div style="position: relative; display: inline-block; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/cc3fd42a-75ef-48af-b48a-eb38588b3776" width="500" alt="Screenshot 3" />
+  <div style="
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      background-color: rgba(0,0,0,0.6);
+      color: white;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 0 0 5px 5px;
+  ">
+    Cart page: edit size, quantity, delete items, etc.
+  </div>
+</div>
 
 <!-- Screenshot 4 -->
-<img src="https://github.com/user-attachments/assets/0c0717a6-d212-42ce-81e2-50f4429bb987" width="500" alt="Screenshot 4" />
-*Checkout and payment page.*
+<div style="position: relative; display: inline-block; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/0c0717a6-d212-42ce-81e2-50f4429bb987" width="500" alt="Screenshot 4" />
+  <div style="
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      background-color: rgba(0,0,0,0.6);
+      color: white;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 0 0 5px 5px;
+  ">
+    Checkout and payment page.
+  </div>
+</div>
 
 <!-- Screenshot 5 -->
-<img src="https://github.com/user-attachments/assets/c6ea6a2e-3efe-4f20-9775-bf495b0b8b1e" width="500" alt="Screenshot 5" />
-*Admin Dashboard - product management.*
+<div style="position: relative; display: inline-block; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/c6ea6a2e-3efe-4f20-9775-bf495b0b8e" width="500" alt="Screenshot 5" />
+  <div style="
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      background-color: rgba(0,0,0,0.6);
+      color: white;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 0 0 5px 5px;
+  ">
+    Admin Dashboard - product management.
+  </div>
+</div>
 
 <!-- Screenshot 6 -->
-<img src="https://github.com/user-attachments/assets/9874d73e-5fd3-42b2-8c90-0ef505d89e13" width="500" alt="Screenshot 6" />
-*Admin Dashboard - revenue statistics and charts.*
+<div style="position: relative; display: inline-block; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/9874d73e-5fd3-42b2-8c90-0ef505d89e13" width="500" alt="Screenshot 6" />
+  <div style="
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      background-color: rgba(0,0,0,0.6);
+      color: white;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 0 0 5px 5px;
+  ">
+    Admin Dashboard - revenue statistics and charts.
+  </div>
+</div>
 
 <!-- Screenshot 7 -->
-<img src="https://github.com/user-attachments/assets/c0eb531f-9ba0-4d5e-93fd-f1acb91a4d2e" width="500" alt="Screenshot 7" />
-*ChatBox with AI.*
+<div style="position: relative; display: inline-block; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/c0eb531f-9ba0-4d5e-93fd-f1acb91a4d2e" width="500" alt="Screenshot 7" />
+  <div style="
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      background-color: rgba(0,0,0,0.6);
+      color: white;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 0 0 5px 5px;
+  ">
+    ChatBox with AI.
+  </div>
+</div>
+
 
 
 
