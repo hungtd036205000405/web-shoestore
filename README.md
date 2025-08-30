@@ -28,8 +28,8 @@ Dự án không chỉ dừng lại ở các chức năng cơ bản của một w
 - Lưu lại **lịch sử hội thoại** (Conversation + Message).  
 
 ### 📊 Dashboard quản trị
-- Thống kê doanh thu theo ngày, tháng, năm.
-- Biểu đồ trực quan: sản phẩm bán chạy, doanh thu theo thời gian.
+- **Thống kê** doanh thu theo ngày, tháng, năm.
+- **Biểu đồ** trực quan: sản phẩm bán chạy, doanh thu theo thời gian.
 - Quản lý sản phẩm, đơn hàng, người dùng.
 
 ### 🔐 Bảo mật & kỹ thuật backend  
