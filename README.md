@@ -71,31 +71,31 @@ This project goes beyond the basic functionalities of an e-commerce website by l
 
 <br><br>
 
-**BestSeller Page showcasing top-selling products.**
+**Admin Dashboard - revenue statistics and charts.**
 
 <img src="https://github.com/user-attachments/assets/2a980fa2-2f64-435b-b8c5-ee7bf11abd0d" width="500" alt="Screenshot 2" />
 
 <br><br>
 
-**Cart page: edit size, quantity, delete items, etc.**
+**BestSeller Page showcasing top-selling products .**
 
 <img src="https://github.com/user-attachments/assets/cc3fd42a-75ef-48af-b48a-eb38588b3776" width="500" alt="Screenshot 3" />
 
 <br><br>
 
-**Checkout and payment page.**
+**Cart page: edit size, quantity, delete items, etc.**
 
 <img src="https://github.com/user-attachments/assets/0c0717a6-d212-42ce-81e2-50f4429bb987" width="500" alt="Screenshot 4" />
 
 <br><br>
 
-**Admin Dashboard - product management.**
+**Register and Login.**
 
 <img src="https://github.com/user-attachments/assets/c6ea6a2e-3efe-4f20-9775-bf495b0b8b1e" width="500" alt="Screenshot 5" />
 
 <br><br>
 
-**Admin Dashboard - revenue statistics and charts.**
+**Admin Dashboard - manage products.**
 
 <img src="https://github.com/user-attachments/assets/9874d73e-5fd3-42b2-8c90-0ef505d89e13" width="500" alt="Screenshot 6" />
 
