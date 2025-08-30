@@ -1,0 +1,33 @@
+### Java / Spring Boot ###
+target/
+build/
+out/
+*.log
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.DS_Store
+Thumbs.db
+
+### Node / React ###
+node_modules/
+dist/
+build/
+.cache/
+.npm/
+.yarn/
+.pnp.*
+.env
+.env.local
+.env.*.local
+*.lock
+*.tmp
+
+### Other ###
+*.ipr
+*.iws
+*.code-workspace
+*~

@@ -1,0 +1,50 @@
+.policy-section {
+  margin-top: 3rem;
+}
+
+.policy-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #1e3a8a; /* xanh navy uy tín */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.policy-card {
+  transition: all 0.3s ease;
+  border-radius: 18px;
+  background: #ffffff;
+  border: none;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+}
+
+.policy-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.policy-icon {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.policy-card h6 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #111827; /* đen đậm dễ đọc */
+}
+
+.policy-card p {
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+.policy-highlight {
+  font-weight: 800;
+  color: #dc2626; /* đỏ nhấn mạnh */
+}

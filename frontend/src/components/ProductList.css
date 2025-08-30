@@ -1,0 +1,43 @@
+.product-list-wrapper {
+  margin-top: 40px;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: bold;
+  color: #222;
+  font-size: 28px;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.search-bar {
+  border-radius: 20px;
+  padding: 12px 18px;
+  margin-bottom: 25px;
+  border: 1px solid #ddd;
+  transition: all 0.3s;
+}
+.search-bar:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+.search-box {
+  background: #fdfdfd;
+  border-radius: 12px;
+}
+
+.pagination .page-link {
+  border-radius: 8px;
+  margin: 0 3px;
+  color: #007bff;
+}
+.pagination .active .page-link {
+  background-color: #007bff;
+  border: none;
+}

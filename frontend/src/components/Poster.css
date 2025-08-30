@@ -1,0 +1,177 @@
+/* Styles specific to Poster component (moved out of Shop.css to avoid leakage) */
+.text-gradient {
+  background: linear-gradient(90deg, #dc3545 0%, #ff6b6b 50%, #dc3545 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* ensure transparent fill works across browsers for clipped gradient text */
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* Poster hero section base (moved from Shop.css) */
+.hero-section {
+  position: relative;
+  /* allow accent marks/diacritics to render outside the strict box to avoid clipping */
+  overflow: visible;
+  background:
+    radial-gradient(1200px 400px at -10% 0%, rgba(220, 53, 69, 0.06), transparent 60%),
+    linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.03) 100%);
+}
+
+.hero-title {
+  letter-spacing: 0.5px;
+  /* slightly smaller and more conservative responsive scale */
+  font-size: clamp(1.2rem, 3.2vw, 2.8rem);
+  margin-bottom: 0.5rem;
+}
+
+.hero-line { display: block; line-height: 1.12; font-weight: 900; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; padding-bottom: 0.06rem; }
+.hero-title.text-gradient .hero-line { color: transparent; }
+
+/* Ensure gradient applies when combined */
+.hero-title.text-gradient {
+  color: transparent;
+}
+
+.hero-badge {
+  box-shadow: 0 6px 16px rgba(220, 53, 69, 0.3);
+}
+
+.metric {
+  padding-right: 16px;
+}
+
+.btn-cta {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.btn-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.12);
+}
+.btn-cta-primary {
+  box-shadow: 0 10px 20px rgba(220, 53, 69, 0.25);
+}
+.btn-cta-secondary:hover {
+  background-color: #212529;
+  color: #fff;
+}
+
+.reveal-up { opacity: 1; transform: translateY(0); }
+
+/* Hero image 3D effect */
+.shoe-wrapper {
+  display: block;
+  transition: transform 0.15s ease;
+  will-change: transform;
+  perspective: 1000px;
+  position: relative;
+  background: inherit;
+  background-color: transparent;
+  width: 100%;
+}
+
+.shoe-image {
+  max-height: clamp(220px, 40vh, 440px);
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0px 15px 25px rgba(0, 0, 0, 0.2));
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.shoe-wrapper:hover .shoe-image {
+  transform: scale(1.05);
+}
+
+/* Slideshow stack */
+.slide-stack {
+  position: relative;
+  width: 100%;
+  height: clamp(240px, 42vh, 460px);
+}
+.slide-image {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 450ms ease, transform 450ms ease;
+  filter: drop-shadow(0px 15px 25px rgba(0, 0, 0, 0.2));
+}
+.slide-image.active {
+  opacity: 1;
+}
+
+@media (max-width: 576px) {
+  .slide-stack { height: clamp(200px, 45vh, 340px); }
+  .shoe-image { max-height: clamp(200px, 45vh, 340px); }
+}
+
+/* Floating animation for wrapper */
+.float-anim {
+  animation: floatY 3s ease-in-out infinite;
+}
+
+@keyframes floatY {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0); }
+}
+
+/* Subtle shine overlay sweeping across */
+.shoe-wrapper::after {
+  content: "";
+  position: absolute;
+  top: -20%;
+  left: -75%;
+  width: 50%;
+  height: 140%;
+  background: linear-gradient(120deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0) 100%);
+  transform: skewX(-20deg);
+  animation: shine 4s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 2;
+}
+
+@keyframes shine {
+  0% { left: -75%; }
+  100% { left: 125%; }
+}
+
+/* Ambient glow to blend with page background */
+.shoe-wrapper::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(closest-side, rgba(220, 53, 69, 0.12) 0%, rgba(220, 53, 69, 0.06) 45%, rgba(255, 255, 255, 0) 70%);
+  filter: blur(0.2px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Ground shadow to anchor the shoe visually */
+.ground-shadow {
+  position: absolute;
+  left: 50%;
+  bottom: 6%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 16px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.1) 60%, rgba(0,0,0,0) 100%);
+  filter: blur(4px);
+  opacity: 0.55;
+  pointer-events: none;
+  z-index: 0;
+}
