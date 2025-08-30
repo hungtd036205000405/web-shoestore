@@ -66,6 +66,7 @@ This project goes beyond the basic functionalities of an e-commerce website by l
 
 ## 📸 Demo Screenshots  
 👉 (Add screenshots or GIFs here to showcase the project)  
+<img width="1712" height="1028" alt="image" src="https://github.com/user-attachments/assets/19f9f528-fd73-4f33-991e-2ae2955cfe8a" />
 
 ---
 
