@@ -67,37 +67,37 @@ This project goes beyond the basic functionalities of an e-commerce website by l
 ## 📸 Demo Screenshots  
 
 <!-- Screenshot 1 -->
-<img src="https://github.com/user-attachments/assets/19f9f528-fd73-4f33-991e-2ae2955cfe8a" width="800" alt="Screenshot 1" />
+<img src="https://github.com/user-attachments/assets/19f9f528-fd73-4f33-991e-2ae2955cfe8a" width="500" alt="Screenshot 1" />
 <!-- Comment for Screenshot 1 -->
-*Comment: Homepage with product listing.*
+*Comment: Đánh giá theo star và commnet .*
 
 <!-- Screenshot 2 -->
-<img src="https://github.com/user-attachments/assets/2a980fa2-2f64-435b-b8c5-ee7bf11abd0d" width="800" alt="Screenshot 2" />
+<img src="https://github.com/user-attachments/assets/2a980fa2-2f64-435b-b8c5-ee7bf11abd0d" width="500" alt="Screenshot 2" />
 <!-- Comment for Screenshot 2 -->
-*Comment: Product detail page with reviews and favorite button.*
+*Comment: BestSeller Page.*
 
 <!-- Screenshot 3 -->
-<img src="https://github.com/user-attachments/assets/cc3fd42a-75ef-48af-b48a-eb38588b3776" width="800" alt="Screenshot 3" />
+<img src="https://github.com/user-attachments/assets/cc3fd42a-75ef-48af-b48a-eb38588b3776" width="500" alt="Screenshot 3" />
 <!-- Comment for Screenshot 3 -->
-*Comment: Cart page with selected products.*
+*Comment: Cart page , can edit size , quantity, delete,...*
 
 <!-- Screenshot 4 -->
-<img src="https://github.com/user-attachments/assets/0c0717a6-d212-42ce-81e2-50f4429bb987" width="800" alt="Screenshot 4" />
+<img src="https://github.com/user-attachments/assets/0c0717a6-d212-42ce-81e2-50f4429bb987" width="500" alt="Screenshot 4" />
 <!-- Comment for Screenshot 4 -->
 *Comment: Checkout and payment page.*
 
 <!-- Screenshot 5 -->
-<img src="https://github.com/user-attachments/assets/ce25eaae-c201-44a5-9f44-f8eeebb09e5c" width="800" alt="Screenshot 5" />
+<img src="https://github.com/user-attachments/assets/ce25eaae-c201-44a5-9f44-f8eeebb09e5c" width="500" alt="Screenshot 5" />
 <!-- Comment for Screenshot 5 -->
 *Comment: AI Chatbot suggesting products.*
 
 <!-- Screenshot 6 -->
-<img src="https://github.com/user-attachments/assets/c6ea6a2e-3efe-4f20-9775-bf495b0b8b1e" width="800" alt="Screenshot 6" />
+<img src="https://github.com/user-attachments/assets/c6ea6a2e-3efe-4f20-9775-bf495b0b8b1e" width="500" alt="Screenshot 6" />
 <!-- Comment for Screenshot 6 -->
 *Comment: Admin Dashboard - product management.*
 
 <!-- Screenshot 7 -->
-<img src="https://github.com/user-attachments/assets/9874d73e-5fd3-42b2-8c90-0ef505d89e13" width="800" alt="Screenshot 7" />
+<img src="https://github.com/user-attachments/assets/9874d73e-5fd3-42b2-8c90-0ef505d89e13" width="5500" alt="Screenshot 7" />
 <!-- Comment for Screenshot 7 -->
 *Comment: Admin Dashboard - revenue statistics and charts.*
 
